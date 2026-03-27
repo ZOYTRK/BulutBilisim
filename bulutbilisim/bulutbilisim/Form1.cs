@@ -11,4 +11,9 @@ public partial class Form1 : Form
     {
 
     }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show("birisi bu butonu ekledi!");
+    }
 }
