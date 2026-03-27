@@ -44,7 +44,7 @@ partial class Form1
         // label2
         // 
         label2.AutoSize = true;
-        label2.Location = new Point(547, 105);
+        label2.Location = new Point(160, 111);
         label2.Name = "label2";
         label2.Size = new Size(157, 20);
         label2.TabIndex = 1;
