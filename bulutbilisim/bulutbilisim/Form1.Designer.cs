@@ -29,28 +29,45 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
-        label1 = new System.Windows.Forms.Label();
+        label1 = new Label();
+        label2 = new Label();
         SuspendLayout();
         // 
         // label1
         // 
-        label1.Location = new System.Drawing.Point(140, 54);
+        label1.Location = new Point(160, 72);
         label1.Name = "label1";
-        label1.Size = new System.Drawing.Size(143, 29);
+        label1.Size = new Size(163, 39);
         label1.TabIndex = 0;
         label1.Text = "İlk Oluşturulmuş Label";
         // 
+        // label2
+        // 
+        label2.AutoSize = true;
+        label2.Location = new Point(547, 105);
+        label2.Name = "label2";
+        label2.Size = new Size(157, 20);
+        label2.TabIndex = 1;
+        label2.Text = "rüzgarın eklediği label";
+        label2.Click += label2_Click;
+        // 
         // Form1
         // 
-        AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-        AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        ClientSize = new System.Drawing.Size(800, 450);
+        AutoScaleDimensions = new SizeF(8F, 20F);
+        AutoScaleMode = AutoScaleMode.Font;
+        ClientSize = new Size(914, 600);
+        Controls.Add(label2);
         Controls.Add(label1);
+        Margin = new Padding(3, 4, 3, 4);
+        Name = "Form1";
         Text = "Form1";
         ResumeLayout(false);
+        PerformLayout();
     }
 
     private System.Windows.Forms.Label label1;
 
     #endregion
+
+    private Label label2;
 }
