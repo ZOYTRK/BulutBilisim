@@ -1,0 +1,10 @@
+# Visual Studio / C# Geliştirme Ortamı Dosyaları
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.dbmdl
+*.sln.docstates
